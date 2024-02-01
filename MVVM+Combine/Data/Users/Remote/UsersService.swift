@@ -22,15 +22,6 @@ final class UserService: UserServiceProtocol {
     }
 
     func getUserProfile() -> AnyPublisher<[UserModel], Error> {
-        return provider.requestPublisher(.users)
-            .tryMap { result in
-                guard let response = result.response, response.statusCode == 200 else {
-                    throw URLError(.badServerResponse)
-                }
-                return result.data
-            }
-            .decode(type: [UserModel].self, decoder: JSONDecoder())
-            .catch { _ in Fail(error: APIError.invalidJSONFormat).eraseToAnyPublisher() }
-            .eraseToAnyPublisher()
+        return provider.makeRequest(target: .users)
     }
 }

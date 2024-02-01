@@ -10,7 +10,7 @@ import Foundation
 enum APIError: Error, Equatable {
 
     case invalidJSONFormat
-    case customerError(code: String, message: String)
+    case customerError(code: URLError.Code, message: String)
     case unknown
     
     var errorMessage: String {
@@ -26,12 +26,12 @@ enum APIError: Error, Equatable {
         }
     }
     
-    var errorCode: String {
+    var errorCode: URLError.Code {
         switch self {
         case .customerError(let code, _):
             return code
         default:
-            return "Error"
+            return .unknown
         }
     }
 }

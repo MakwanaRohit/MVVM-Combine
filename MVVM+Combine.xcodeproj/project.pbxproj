@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		935E5F062B6A979F00F59F33 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E5F052B6A979F00F59F33 /* Extension+UIViewController.swift */; };
+		935E5F062B6A979F00F59F33 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E5F052B6A979F00F59F33 /* UIViewController+Alert.swift */; };
 		935E5F082B6A987F00F59F33 /* UsersViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E5F072B6A987F00F59F33 /* UsersViewController+TableView.swift */; };
-		93AD6B212B6A168A00C7BD16 /* Extension+MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AD6B202B6A168A00C7BD16 /* Extension+MoyaProvider.swift */; };
+		93AD6B212B6A168A00C7BD16 /* MoyaProvider+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AD6B202B6A168A00C7BD16 /* MoyaProvider+Default.swift */; };
 		93AD6B342B6A5D1800C7BD16 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AD6B332B6A5D1800C7BD16 /* APIError.swift */; };
 		93B459862B67D3B700AB17D3 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 93B459852B67D3B700AB17D3 /* CombineMoya */; };
 		93B459882B67D3B700AB17D3 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 93B459872B67D3B700AB17D3 /* Moya */; };
@@ -19,6 +19,7 @@
 		93B459942B67EC7900AB17D3 /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B459932B67EC7900AB17D3 /* UserCellViewModel.swift */; };
 		93CE21972B65551F003A451C /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CE21962B65551F003A451C /* UsersViewController.swift */; };
 		93CE21992B65556C003A451C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CE21982B65556C003A451C /* UserViewModel.swift */; };
+		93E24AA52B6B71A800A44EE8 /* MoyaProvider+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E24AA42B6B71A800A44EE8 /* MoyaProvider+Request.swift */; };
 		93E5D6FF2B64F80E0040AEAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5D6FE2B64F80E0040AEAB /* AppDelegate.swift */; };
 		93E5D7012B64F80E0040AEAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5D7002B64F80E0040AEAB /* SceneDelegate.swift */; };
 		93E5D7062B64F80E0040AEAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E5D7042B64F80E0040AEAB /* Main.storyboard */; };
@@ -27,7 +28,7 @@
 		93EBC38B2B676D2C001D5919 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EBC38A2B676D2C001D5919 /* UserModel.swift */; };
 		93EBC38E2B676DA5001D5919 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EBC38C2B676DA5001D5919 /* UserTableViewCell.swift */; };
 		93EBC38F2B676DA5001D5919 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93EBC38D2B676DA5001D5919 /* UserTableViewCell.xib */; };
-		93EBC3912B67ACB4001D5919 /* Extension+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EBC3902B67ACB4001D5919 /* Extension+UITableView.swift */; };
+		93EBC3912B67ACB4001D5919 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EBC3902B67ACB4001D5919 /* UITableView+Reusable.swift */; };
 		93EBC3932B67ACCC001D5919 /* TableViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EBC3922B67ACCC001D5919 /* TableViewCellProtocol.swift */; };
 		93EBC3972B67B860001D5919 /* UserDataLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EBC3962B67B860001D5919 /* UserDataLogic.swift */; };
 		93EBC3992B67B8AC001D5919 /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EBC3982B67B8AC001D5919 /* UsersService.swift */; };
@@ -35,14 +36,15 @@
 
 /* Begin PBXFileReference section */
 		935E5F032B6A961200F59F33 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		935E5F052B6A979F00F59F33 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		935E5F052B6A979F00F59F33 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		935E5F072B6A987F00F59F33 /* UsersViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UsersViewController+TableView.swift"; sourceTree = "<group>"; };
-		93AD6B202B6A168A00C7BD16 /* Extension+MoyaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+MoyaProvider.swift"; sourceTree = "<group>"; };
+		93AD6B202B6A168A00C7BD16 /* MoyaProvider+Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoyaProvider+Default.swift"; sourceTree = "<group>"; };
 		93AD6B332B6A5D1800C7BD16 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		93B4598D2B67D40B00AB17D3 /* UserEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEndPoints.swift; sourceTree = "<group>"; };
 		93B459932B67EC7900AB17D3 /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
 		93CE21962B65551F003A451C /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		93CE21982B65556C003A451C /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		93E24AA42B6B71A800A44EE8 /* MoyaProvider+Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoyaProvider+Request.swift"; sourceTree = "<group>"; };
 		93E5D6FB2B64F80E0040AEAB /* MVVM+Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM+Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E5D6FE2B64F80E0040AEAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93E5D7002B64F80E0040AEAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +54,7 @@
 		93EBC38A2B676D2C001D5919 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		93EBC38C2B676DA5001D5919 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		93EBC38D2B676DA5001D5919 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
-		93EBC3902B67ACB4001D5919 /* Extension+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UITableView.swift"; sourceTree = "<group>"; };
+		93EBC3902B67ACB4001D5919 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		93EBC3922B67ACCC001D5919 /* TableViewCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellProtocol.swift; sourceTree = "<group>"; };
 		93EBC3962B67B860001D5919 /* UserDataLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataLogic.swift; sourceTree = "<group>"; };
 		93EBC3982B67B8AC001D5919 /* UsersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersService.swift; sourceTree = "<group>"; };
@@ -122,8 +124,8 @@
 		93AD6B292B6A433C00C7BD16 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				93EBC3902B67ACB4001D5919 /* Extension+UITableView.swift */,
-				935E5F052B6A979F00F59F33 /* Extension+UIViewController.swift */,
+				93EBC3902B67ACB4001D5919 /* UITableView+Reusable.swift */,
+				935E5F052B6A979F00F59F33 /* UIViewController+Alert.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -131,7 +133,8 @@
 		93AD6B2A2B6A434500C7BD16 /* Moya */ = {
 			isa = PBXGroup;
 			children = (
-				93AD6B202B6A168A00C7BD16 /* Extension+MoyaProvider.swift */,
+				93AD6B202B6A168A00C7BD16 /* MoyaProvider+Default.swift */,
+				93E24AA42B6B71A800A44EE8 /* MoyaProvider+Request.swift */,
 			);
 			path = Moya;
 			sourceTree = "<group>";
@@ -243,12 +246,12 @@
 			isa = PBXGroup;
 			children = (
 				93AD6B242B6A411100C7BD16 /* Delegate */,
-				93AD6B262B6A413000C7BD16 /* Data */,
 				93AD6B2B2B6A436700C7BD16 /* UsersScreen */,
-				93AD6B282B6A431200C7BD16 /* Extensions */,
+				93AD6B262B6A413000C7BD16 /* Data */,
 				93AD6B322B6A5CFC00C7BD16 /* Common */,
-				93AD6B352B6A5D5A00C7BD16 /* Storyboard */,
+				93AD6B282B6A431200C7BD16 /* Extensions */,
 				93AD6B362B6A5D6400C7BD16 /* Resources */,
+				93AD6B352B6A5D5A00C7BD16 /* Storyboard */,
 			);
 			path = "MVVM+Combine";
 			sourceTree = "<group>";
@@ -334,9 +337,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				935E5F062B6A979F00F59F33 /* Extension+UIViewController.swift in Sources */,
-				93AD6B212B6A168A00C7BD16 /* Extension+MoyaProvider.swift in Sources */,
+				935E5F062B6A979F00F59F33 /* UIViewController+Alert.swift in Sources */,
+				93AD6B212B6A168A00C7BD16 /* MoyaProvider+Default.swift in Sources */,
 				93B4598E2B67D40B00AB17D3 /* UserEndPoints.swift in Sources */,
+				93E24AA52B6B71A800A44EE8 /* MoyaProvider+Request.swift in Sources */,
 				93EBC38B2B676D2C001D5919 /* UserModel.swift in Sources */,
 				93EBC3992B67B8AC001D5919 /* UsersService.swift in Sources */,
 				935E5F082B6A987F00F59F33 /* UsersViewController+TableView.swift in Sources */,
@@ -349,7 +353,7 @@
 				93E5D7012B64F80E0040AEAB /* SceneDelegate.swift in Sources */,
 				93AD6B342B6A5D1800C7BD16 /* APIError.swift in Sources */,
 				93B459942B67EC7900AB17D3 /* UserCellViewModel.swift in Sources */,
-				93EBC3912B67ACB4001D5919 /* Extension+UITableView.swift in Sources */,
+				93EBC3912B67ACB4001D5919 /* UITableView+Reusable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

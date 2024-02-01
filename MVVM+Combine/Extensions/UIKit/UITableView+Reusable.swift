@@ -1,5 +1,5 @@
 //
-//  Extension+UITableView.swift
+//  UITableView+Reusable.swift
 //  MVVM+Combine
 //
 //  Created by rohitmakwana on 29/01/24.
